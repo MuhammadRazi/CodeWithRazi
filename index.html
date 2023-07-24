@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>NETFLIX.com</title>
+    <link rel="icon" href="img/download (3).jpg" type="image/x-icon">
+    <style>
+       
+
+    </style>
+</head>
+<body 
+style="background-image: url(img/download\ \(3\).jpg) ;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;">
+
+
+    <div id="nav">
+    <ul> 
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+    
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+   <li style="font-weight:bolder; font-size:x-large; font-family:'Times New Roman', Times, serif;"> Login Netflix</li>
+  <center> 
+   <h1>Who's Watching?</h1>
+</center>
+<center>
+<div class="form" >
+<div >
+    <div >
+ <p style="color: aliceblue;">Enter First Name</p>   
+<input type="text" placeholder="First name" name="First">
+</div>
+<div>
+    <p style="color: aliceblue;"> Enter Last Name</p>
+    <input type="text" placeholder="Last name" name="Last">
+</div>
+<div>
+    <p style="color: aliceblue;"> Enter Email</p>
+    <input type="email" placeholder="abc123@gmail.com" name="Email">
+</div>
+<div>
+    <p style="color: aliceblue;"> Enter Password</p>
+    <input type="password" placeholder="Password" name="Password">
+</div>
+</div>
+
+<!-- <input type="button" placeholder="Click it" name="simple button"> -->
+<!-- <input type="checkbox" placeholder="I agree" name="checkbox"> -->
+<br>
+</div>
+<div class="form-check">
+<input style="color: aliceblue;" type="radio" name="flexRadioDefault" id="male">
+<label style="color: aliceblue;" class="form-check-label" for="male">Male</label>
+</div>
+<div class="form-check">
+<input style="color: aliceblue;" type="radio" name="flexRadioDefault" id="female"> 
+<label style="color: aliceblue;" class="form-check-label" id="female">Female</label>
+</div>
+<input style="color: aliceblue;" type="checkbox" id="I agree to terms" name="checkbox" value="agree">
+<label style="color: aliceblue;" for="checkbox" >I agree to terms</label>
+</center>
+</div>
+   
+    </ul>   
+    </div>
+    <div  class="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 450px;">
+            <div class="carousel-inner">
+                <center>
+              <div  class="carousel-item active">
+                <figure>
+                    <img src="img/netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg" 
+                    alt="image1" 
+                    height="100"
+                    width="100"/>
+                    <figcaption style="color: aliceblue;">PERSON 1</figcaption>
+            </figure>
+              </div>
+              <div class="carousel-item">
+                <figure>
+                    <img src="img/netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg"
+                    alt="image2" 
+                    height="100"
+                    width="100"/>
+                    <figcaption style="color: aliceblue;">PERSON 2</figcaption>
+            </figure>
+              </div>
+              <div class="carousel-item">
+                <figure>
+                    <img src="img/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+                    alt="image3" 
+                    height="100"
+                    width="100"/>
+                    <figcaption style="color: aliceblue;">PERSON 3</figcaption>
+            </figure>
+              </div>
+              <div class="carousel-item">
+                <figure>
+                    <img src="img/netflix-profile-pictures-5yup5hd2i60x7ew3.jpg"
+                    alt="image4" 
+                    height="100"
+                    width="100"/>
+                    <figcaption style="color: rgb(238, 243, 248);">PERSON 4</figcaption>
+            </figure>
+              </div>
+              <div class="carousel-item">
+                <figure>
+                    <img src="img/imagenew.jpeg"
+                    alt="image5"
+                    height="100"
+                    width="100"/> 
+                    <figcaption style="color:white;">PERSON 5</figcaption>
+            </figure>
+              </div>
+            </center>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <center style="color: aliceblue;">
+<h2>ABOUT US</h2>
+
+<table>
+    <div>
+ <div>
+   <tr>
+    <th>Company</th>
+    <th>Name</th>
+    <th>Country</th>
+   </tr>
+ </div>
+ <div>
+  <tr>
+    <td>NEX Skills</td>
+    <td>Mr Razi</td>
+    <td>PAKISTAN</td>
+  </tr>
+</div>
+<div>
+  <tr>
+    <td>PNY Trainings</td>
+    <td>Mr Sohaib</td>
+    <td>PAKISTAN</td>
+  </tr>
+</div>
+<div>
+  <tr>
+    <td>ARFA Tower</td>
+    <td>Mr Danish</td>
+    <td>Austria</td>
+  </tr>
+</div>
+<div>
+  <tr>
+    <td>HP Laptops</td>
+    <td>Mr Hamdan Jatala</td>
+    <td>UK</td>
+  </tr>
+</div>
+<div>
+  <tr>
+    <td>KFOOT</td>
+    <td>Miss Humaira</td>
+    <td>Canada</td>
+  </tr>
+</div>
+  <div>
+  <tr>
+    <td>Lahore Trade Center</td>
+    <td>Miss Minahil</td>
+    <td>Italy</td>
+  </tr>
+  </div>
+</div>
+</table>
+<br>
+
+
+    </center>
+   
+    <!-- <center>
+    <div id="start" style="margin-top: 420px; display:flex;flex-direction: row; justify-content: space-between;">
+    <figure>
+            <img src="netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg" 
+            alt="image1" 
+            height="100"
+            width="100"/>
+            <figcaption style="color: aliceblue;">PERSON 1</figcaption>
+    </figure>
+    <figure>
+            <img src="netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg"
+            alt="image2" 
+            height="100"
+            width="100"/>
+            <figcaption style="color: aliceblue;">PERSON 2</figcaption>
+    </figure>
+    <figure>
+            <img src="netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+            alt="image3" 
+            height="100"
+            width="100"/>
+            <figcaption style="color: aliceblue;">PERSON 3</figcaption>
+    </figure>
+    <figure>
+            <img src="netflix-profile-pictures-5yup5hd2i60x7ew3.jpg"
+            alt="image4" 
+            height="100"
+            width="100"/>
+            <figcaption style="color: rgb(238, 243, 248);">PERSON 4</figcaption>
+    </figure>
+    <figure>
+            <img src="imagenew.jpeg"
+            alt="image5"
+            height="100"
+            width="100"/> 
+            <figcaption style="color:white;">PERSON 5</figcaption>
+    </figure>
+    <figure>
+        <img src="netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg" 
+        alt="image6" 
+        height="100"
+        width="100"/>
+        <figcaption style="color: aliceblue;">PERSON 6</figcaption>
+</figure>
+<figure>
+        <img src="netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg"
+        alt="image7" 
+        height="100"
+        width="100"/>
+        <figcaption style="color: aliceblue;">PERSON 7</figcaption>
+</figure>
+<figure>
+        <img src="netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+        alt="image8" 
+        height="100"
+        width="100"/>
+        <figcaption style="color: aliceblue;">PERSON 8</figcaption>
+</figure>
+<figure>
+    <img src="netflix-profile-pictures-5yup5hd2i60x7ew3.jpg"
+    alt="image9" 
+    height="100"
+    width="100"/>
+    <figcaption style="color: rgb(238, 243, 248);">PERSON 9</figcaption>
+</figure>
+<figure>
+    <img src="imagenew.jpeg"
+    alt="image10"
+    height="100"
+    width="100"/> 
+    <figcaption style="color:white;">PERSON 10</figcaption>
+</figure>
+<figure>
+    <img src="netflix-profile-pictures-5yup5hd2i60x7ew3.jpg"
+    alt="image11" 
+    height="100"
+    width="100"/>
+    <figcaption style="color: rgb(238, 243, 248);">PERSON 11</figcaption>
+</figure>
+<figure>
+    <img src="imagenew.jpeg"
+    alt="image12"
+    height="100"
+    width="100"/> 
+    <figcaption style="color:white;">PERSON 12</figcaption>
+</figure>
+        
+        </div>
+
+       
+    </center>
+    -->
+    <center>
+<div>
+    <audio controls loop>
+      <source src="audio1.ogg" type="audio/ogg">
+      <source src="audio1.mp3" type="audio/mp3">
+    </audio>
+</div> 
+</center>   
+    <center>
+    <div>
+        <button style="margin-top: 45px; " type="button" class="btn btn-primary">MANAGE PROFILES</button>
+    </div>
+    </center>
+   
+   
+</body>
+</html>
